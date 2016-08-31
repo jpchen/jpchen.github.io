@@ -1,0 +1,251 @@
+/* color constants */
+/* font constants */
+/* footer styling*/
+/* font for the body and titles */
+.raleway {
+  font: 100%/140% Raleway, Raleway, sans-serif;
+  font-weight: 400;
+  color: #503232;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1 {
+  font-weight: 700;
+  font: 36px Raleway, Raleway, sans-serif;
+  font-family: Raleway !important;
+}
+h2 {
+  font-weight: 700;
+  font: 30px Raleway, Raleway, sans-serif;
+  font-family: Raleway !important;
+}
+h3 {
+  font-weight: 700;
+  font: 24px Raleway, Raleway, sans-serif;
+  font-family: Raleway !important;
+}
+h4 {
+  font-weight: 700;
+  font: 20px Raleway, Raleway, sans-serif;
+  font-family: Raleway !important;
+}
+h5,
+h6 {
+  font-weight: 700;
+  font: 16px Raleway, Raleway, sans-serif;
+  font-family: Raleway !important;
+}
+/* height for body elements */
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+}
+.row {
+  margin: 0 0 0 0;
+}
+/* sidebar and tabs */
+.sidebar {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  float: left;
+  background-color: #8cc152;
+  border-width: 2px;
+  border-color: black;
+  width: 100%;
+}
+.sidebar-tab {
+  width: 100%;
+}
+.tabbable {
+  background-color: #434a54;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+li.spacer {
+  height: 4px;
+  width: 100%;
+  background-color: #434a54;
+}
+.top-icon {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  position: initial;
+  color: #8cc152;
+}
+.navbar-toggle .icon-bar {
+  background-color: black;
+  margin-top: 3px !important;
+}
+/* content and hero div */
+.content-section {
+  font-size: 100%;
+  line-height: 140%;
+  text-align: center;
+  font-weight: 400;
+  color: #0f1912;
+  margin-top: 10%;
+  min-height: 70%;
+}
+.smaller {
+  min-height: 40%;
+}
+.smallest {
+  min-height: 10%;
+}
+#about {
+  padding-top: 5%;
+}
+#reading{
+  padding-top: 5%;
+}
+#interests{
+  padding-top: 5%;
+}
+#inspirations{
+  padding-top: 5%;
+}
+#blog{
+  padding-top: 5%;
+}
+div#content {
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #F5F7FA;
+}
+/* opentip style */
+.opentip-container {
+  max-width: 67%;
+}
+.style-standard {
+  font: 100%/140% Raleway, Raleway, sans-serif;
+  font-weight: 400;
+  color: #362a4b;
+}
+.style-project-tip > .opentip > .ot-content {
+  font: 100%/140% Raleway, Raleway, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+div.spacer {
+  height: 4px;
+}
+/* projects and content */
+.project-img {
+  position: relative;
+  border-color: #434a54;
+  border-width: 1px;
+  border-style: ridge;
+}
+a {
+  color: #4a89dc;
+}
+/* blog */
+article.blog-preview {
+  text-align: left;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+article > header > .date {
+  text-align: left;
+}
+span.icon-category {
+  padding-left: 1em;
+}
+span.icon-author {
+  padding-left: 1em;
+}
+/* blog posts */
+.entry {
+  margin: 1em;
+}
+article {
+  padding: 1em;
+}
+#blog {
+  padding: 0 0 0 0;
+}
+.back-archive {
+  float: right;
+}
+.previous-post {
+  float: left;
+}
+.next-post {
+  float: right;
+}
+/* archive */
+#archive-content {
+  margin-top: 2em;
+}
+.archive-row {
+  text-align: center;
+}
+.archive-clock {
+  float: left;
+}
+.archive-category {
+  float: right;
+}
+.archive-title {
+  float: left;
+  padding-left: 10%;
+}
+.page-title {
+  text-align: center;
+}
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  body {
+    overflow-x: scroll;
+  }
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right {
+    right: 0;
+  }
+  .row-offcanvas-left {
+    left: 0;
+  }
+  .row-offcanvas-right .sidebar-offcanvas {
+    right: -50%;
+    /* 6 columns */
+  }
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -50%;
+    /* 6 columns */
+  }
+  .row-offcanvas-right.active {
+    right: 50%;
+    /* 6 columns */
+  }
+  .row-offcanvas-left.active {
+    left: 50%;
+    /* 4 columns */
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 33%;
+    /* 3 columns */
+  }

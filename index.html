@@ -1,1 +1,145 @@
-<h0> Jonathan P. Chen<h0>
+<!doctype html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+	<!-- Font family -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/opentip.css">
+	<link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheets/normalize.css">
+	<link rel="stylesheet" href="stylesheets/site.min.css">
+	<link rel="stylesheet" href="stylesheets/pygments.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+
+	<!-- Javascript external libraries -->
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/respond.min.js"></script>
+	<script src="scripts/site.min.js"></script>
+	<script src="scripts/opentip-jquery.min.js"></script>
+	<script src="scripts/constants.js"></script>
+	<script src="scripts/app.js"></script>
+
+	<!-- Favicons -->
+	<link rel="icon" href="images/favicon.ico">
+
+	<title> Jonathan P. Chen </title>
+</head>
+
+<body>
+	<main class="raleway">
+		<div class="container" id='title-header'>
+			<div class="row">
+				<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>
+</div>
+<div class="container">
+	<div class="row row-offcanvas row-offcanvas-left">
+		<div class="tabbable col-xs-3 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
+			<a class="col-sm-6 col-md-6 opentip-hover" data-text="Home" href="/">
+				<span class="fa-stack fa-2x top-icon">
+				<i class="fa fa-circle-thin fa-stack-2x"></i>
+				<i class="fa fa-home fa-stack-1x"></i>
+				</span>
+			</a>
+			<a class="col-sm-6 col-md-6 opentip-hover" data-text="Archived Posts" href="/blog">
+				<span class="fa-stack fa-2x top-icon">
+				<i class="fa fa-square-o fa-stack-2x"></i>
+				<i class="fa fa-book fa-stack-1x"></i>
+				</span>
+			</a>
+			<ul class="nav nav-tabs sidebar" role="tablist">
+				<li class="sidebar-tab" role="presentation" id="about-tab"><a href="#about" class="opentip-hover" data-text="About me"><i class="fa fa-user fa-2x"></i>&nbsp;&nbsp;Me</a></li>
+				<li class="spacer"></li>
+				<li class="sidebar-tab" role="presentation"><a href="#projects" class="opentip-hover" data-text="Check these out"><i class="fa fa-github fa-2x"></i>&nbsp;&nbsp;Projects</a></li>
+				<li class="spacer"></li>
+				<li class="sidebar-tab" role="presentation"><a href="#blog" class="opentip-hover" data-text="Coming Soon!"><i class="fa fa-pencil fa-2x"></i>&nbsp;&nbsp;Blog</a></li>
+				<li class="spacer"></li>
+				<li class="sidebar-tab" role="presentation"><a href="#interests"><i class="fa fa-magic fa-2x"></i>&nbsp;&nbsp;Interests</a></li>
+				<li class="spacer"></li>
+				<li class="sidebar-tab" role="presentation"><a href="#reading"><i class="fa fa-book fa-2x"></i>&nbsp;&nbsp;Reading</a></li>
+				<li class="spacer"></li>
+				<li class="sidebar-tab" role="presentation"><a href="#inspirations" class="opentip-hover" data-text=""><i class="fa fa-star-o fa-2x"></i>&nbsp;&nbsp;Inspirations</a></li>
+				<li class="spacer"></li>
+				<li class="sidebar-tab" role="presentation"><a href="#resume"><i class="fa fa-sticky-note-o fa-2x"></i>&nbsp;&nbsp;Resume</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-10" data-spy="scroll" data-target=".tabbable" id="content">
+			<div class="col-sm-12 well content-section smaller" id="about">
+				<div class="col-sm-8">
+					<h2>About Me</h2>	
+					<h6> Hi there! I'm Jonathan, a recent graduate from the <a href="http://www.upenn.edu/"> University of Pennsylvania</a> where I studied computer science (BSE) and physics, and am currently located in San Francisco, CA. I am interested in <b>AI</b> and <b>machine learning</b>, especially its applications in solving problems in games, computer vision, and finance. I am interested in research engineering positions that focus on these domains. If you're interested in or work in these areas, I'd love to chat &#9786;.
+						<br> <br>
+						In my free time, I enjoy <a href="https://youtu.be/NCmbdza7sYw">jamming with friends</a> and having long talks about <a href="#reading"> things I read</a>. I am also interested in sleight of hand, and I do a bit of closeup <a href="#interests"> card magic</a>.
+						<br> <br>
+						I think a <i>lot</i> about life &mdash; from science to philosophy, politcs to relationships &mdash; and I write about some of it in my <a href="blog">blog</a>. Thoughts always welcome!</h6>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/me.png" height="250" width="250"/>
+					<div class="spacer"></div>
+					<span class="fa-stack fa-lg"><a class="opentip-hover" data-text="Mail" href="mailto:me@jonathanpchen.com" target="_blank"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-envelope-o fa-stack-1x"></i></a></span>
+					<span class="fa-stack fa-lg"><a class="opentip-hover" data-text="Github" href="http://www.github.com/jpchen" target="_blank"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-github-alt fa-stack-1x"></i></a></span>
+					<span class="fa-stack fa-lg"><a class="opentip-hover" data-text="LinkedIn" href="https://www.linkedin.com/in/jonathan-p-chen-38905b58" target="_blank"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></a></span>
+				</div>
+			</div>
+			<div class="col-sm-12 well content-section thumbnails" id="projects">
+				<h2> Some Cool Stuff I've Done</h2>
+			</div>
+			<div class="col-sm-12 well content-section smaller" id="blog">
+				<h3> Coming Soon! </h3>
+				<img src="images/pika_construction.gif">
+				<img src="images/pika_construction.gif">
+				<img src="images/pika_construction.gif">
+			</div>
+			<div class="col-sm-12 well content-section thumbnails" id="interests">
+			</div>
+			<div class="col-sm-12 well content-section thumbnails smaller" id="reading">
+				<h4> I do a fair bit of reading, predominantly from content blogs but also from other sources. I keep an ongoing list of some exceptionally great ones <a href="reading">here</a>. I'm always looking to expand this list, so you know of any good ones I missed, please let me know! </h4>
+			</div>
+			<div class="col-sm-12 well content-section thumbnails" id="inspirations">
+				<h3> People who have inspired me </h3>
+			</div>
+			<div class="col-sm-12 well content-section smallest" id="resume">
+
+				<div class="col-sm-12">
+				    <h3> Check out my resume <a href="docs/resume.pdf">here</a></h3>
+				</div>
+			</div>
+		</div>		
+	</div>
+</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container raleway">
+		    <div class="row">
+		        <div class="col-lg-10 col-lg-offset-1 text-center">
+		            <p class="text-muted">Jonathan P. Chen 2016 &copy;
+		            </p>
+		        </div>
+		    </div>
+		</div>
+	</footer>
+
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-46797848-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>
