@@ -107,6 +107,15 @@ li.spacer {
   margin-top: 1px;
   min-height: 0px;
 }
+.list-section {
+  font-size: 100%;
+  line-height: 140%;
+  text-align: left;
+  font-weight: 400;
+  color: #0f1912;
+  margin-top: 1px;
+  min-height: 0px;
+}
 .content-section {
   font-size: 100%;
   line-height: 140%;
