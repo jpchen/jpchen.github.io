@@ -59,7 +59,8 @@ body {
   margin-top: 50%;
   margin-bottom: 50%;
   float: left;
-  background-color: #8cc152;
+  /*background-color: #8cc152;*/
+  background-color: #4AD5FA;
   border-width: 2px;
   border-color: black;
   width: 100%;
@@ -82,7 +83,8 @@ li.spacer {
   padding-bottom: 1em;
   text-align: center;
   position: initial;
-  color: #8cc152;
+  /*color: #8cc152;*/
+  color: #4AD5FA;
 }
 .navbar-toggle .icon-bar {
   background-color: black;
