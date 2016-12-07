@@ -136,7 +136,9 @@ li.spacer {
 #title {
   padding-top: 0px;
 }
-
+#quote{
+  padding-top: 2%;
+}
 #about {
   padding-top: 5%;
 }
