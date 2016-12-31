@@ -7,20 +7,22 @@
 
 <url>
   <loc>http://jonathanpchen.com/</loc>
-  <lastmod>2016-09-01T11:00:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.00</priority>
+  <lastmod>2016-12-08T00:14:11+00:00</lastmod>
 </url>
 <url>
   <loc>http://jonathanpchen.com/reading/</loc>
-  <lastmod>2016-09-01T11:00:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2016-12-08T00:14:11+00:00</lastmod>
+</url>
+<url>
+  <loc>http://jonathanpchen.com/docs/paper.pdf</loc>
+  <lastmod>2016-12-08T00:14:11+00:00</lastmod>
 </url>
 <url>
   <loc>http://jonathanpchen.com/docs/resume.pdf</loc>
-  <lastmod>2016-09-01T11:00:29+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2016-12-08T00:14:11+00:00</lastmod>
+</url>
+<url>
+  <loc>http://jonathanpchen.com/underdash-api</loc>
+  <lastmod>2016-12-08T00:14:11+00:00</lastmod>
 </url>
 </urlset>
