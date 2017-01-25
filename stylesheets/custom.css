@@ -59,8 +59,7 @@ body {
   margin-top: 50%;
   margin-bottom: 50%;
   float: left;
-  /*background-color: #8cc152;*/
-  background-color: #4AD5FA;
+  background-color: #E8E7E7;
   border-width: 2px;
   border-color: black;
   width: 100%;
@@ -69,14 +68,14 @@ body {
   width: 100%;
 }
 .tabbable {
-  background-color: #434a54;
+  background-color: #D3D3D3;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
 li.spacer {
   height: 4px;
   width: 100%;
-  background-color: #434a54;
+  background-color: #D3D3D3;
 }
 .top-icon {
   padding-top: 1em;
@@ -84,7 +83,7 @@ li.spacer {
   text-align: center;
   position: initial;
   /*color: #8cc152;*/
-  color: #4AD5FA;
+  color: #708090;
 }
 .navbar-toggle .icon-bar {
   background-color: black;
@@ -180,7 +179,7 @@ div.spacer {
 /* projects and content */
 .project-img {
   position: relative;
-  border-color: #434a54;
+  border-color: #D3D3D3;
   border-width: 1px;
   border-style: ridge;
 }
