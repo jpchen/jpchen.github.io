@@ -3701,6 +3701,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
+/*color of font text and fa icon*/
 .nav-tabs>li.active>a:hover {
     color: #555;
     cursor: default;
@@ -7690,9 +7691,10 @@ blockquote {
 .nav-tabs>li:first-child {
     border-left: none
 }
+/* color of TEXT in tabs*/
 .nav-tabs>li>a {
     margin-right: 0;
-    color: #434a54;
+    color: #ECEDEE;
     border: none;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -7704,12 +7706,14 @@ blockquote {
     -moz-border-radius: 4px 0 0
 }
 .nav-tabs>li>a:focus,
+/* color of mouse hover tab*/
 .nav-tabs>li>a:hover {
-    background-color: #f5f7fa;
+    background-color: #757575;
     border: none
 }
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
+/*Color of highlighted/currently viewing block*/
 .nav-tabs>li.active>a:hover {
     background-color: #fff!important;
     border: none
