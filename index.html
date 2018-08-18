@@ -1,31 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  	<meta charset="utf-8">
-	<!-- Font family -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <!-- Font family -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-	<link rel="stylesheet" href="stylesheets/opentip.css">
-	<link rel="stylesheet" href="stylesheets/font-awesome.min.css">
-	<link rel="stylesheet" href="stylesheets/normalize.css">
-	<link rel="stylesheet" href="stylesheets/site.min.css">
-	<link rel="stylesheet" href="stylesheets/pygments.css">
-	<link rel="stylesheet" href="stylesheets/custom.css">
-
-	<!-- Javascript external libraries -->
-	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script src="scripts/bootstrap.min.js"></script>
-	<script src="scripts/respond.min.js"></script>
-	<script src="scripts/site.min.js"></script>
-	<script src="scripts/opentip-jquery.min.js"></script>
-	<script src="scripts/app.js"></script>
-
-	<!-- Favicons -->
-	<link rel="icon" href="images/favicon.ico">
-
-	<title> Jonathan P. Chen </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal website of Jonathan P. Chen".>
+  <meta name="author" content="Jonathan P. Chen">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <title>Jonathan P. Chen</title>
 	<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -36,221 +21,160 @@
   	    ga('send', 'pageview');
 
 	</script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/custom.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-
 <body>
-	<main class="raleway">
-	    <div class="container" id='title-header'>
-			<div class="row">
-				<div class="navbar-header">
-	<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	</button>
-</div>
-<div class="container">
-	<div class="row row-offcanvas row-offcanvas-left">
-		<div class="tabbable col-xs-3 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
-			<a class="col-sm-6 col-md-6" data-text="Home" href="/">
-				<span class="fa-stack fa-2x top-icon">
-				<i class="fa fa-circle-thin fa-stack-2x"></i>
-				<i class="fa fa-home fa-stack-1x"></i>
-				</span>
-			</a>
-			<a class="col-sm-6 col-md-6" data-text="Blog" href="/blog">
-				<span class="fa-stack fa-2x top-icon">
-				<i class="fa fa-square-o fa-stack-2x"></i>
-				<i class="fa fa-pencil fa-stack-1x"></i>
-				</span>
-			</a>
-			<ul class="nav nav-tabs sidebar" role="tablist">
-				<li class="sidebar-tab" role="presentation" id="about-tab"><a href="#about"><i class="fa fa-user fa-2x"></i>&nbsp;&nbsp;Me</a></li>
-				<li class="spacer"></li>
-				<li class="sidebar-tab" role="presentation"><a href="#projects"><i class="fa fa-github fa-2x"></i>&nbsp;&nbsp;Projects</a></li>
-				<li class="spacer"></li>
-				<li class="sidebar-tab" role="presentation"><a href="#blog"><i class="fa fa-pencil fa-2x"></i>&nbsp;&nbsp;Blog</a></li>
-				<li class="spacer"></li>
-				<li class="sidebar-tab" role="presentation"><a href="#interests"><i class="fa fa-magic fa-2x"></i>&nbsp;&nbsp;Interests</a></li>
-				<li class="spacer"></li>
-				<li class="sidebar-tab" role="presentation"><a href="#reading"><i class="fa fa-book fa-2x"></i>&nbsp;&nbsp;Learning</a></li>
-				<li class="spacer"></li>
-				<!--<li class="sidebar-tab" role="presentation"><a href="#inspirations"><i class="fa fa-star-o fa-2x"></i>&nbsp;&nbsp;Inspirations</a></li>
-                <li class="spacer"></li>-->
-				<li class="sidebar-tab" role="presentation"><a href="#resume"><i class="fa fa-sticky-note-o fa-2x"></i>&nbsp;&nbsp;Resume</a></li>
-			</ul>
-		</div>
-		<div class="col-sm-10" data-spy="scroll" data-target=".tabbable" id="content">
-			<div class="col-sm-12 well content-section smaller" id="about">
-				<div class="col-sm-8">
-					<h2>About Me</h2>	
-                    <h6> I am currently a research engineer at <a href="http://uber.ai">Uber AI Labs</a> and partly affiliated with the <a href="https://cocolab.stanford.edu/"> Computation and Cognition Lab</a> at <a href=https://cs.stanford.edu/>Stanford</a>.  I received my undergraduate degree from the <a href="http://www.seas.upenn.edu/"> University of Pennsylvania</a> where I studied computer science, and am currently located in San Francisco, CA. I am broadly interested in <b>probabilistic machine learning</b> and <b>probabilistic programming</b>, and its applications in cognitive science, vision, and language.
-						<br> <br>
-                        I've begun maintaining a <a href="http://blog.jonathanpchen.com"> research </a> and a <a href="https://medium.com/@jonathanpchen"> personal </a> blog.  I also do <a href="#interests">some other stuff</a> in my free time.
-						<br> <br>
-                        <i>(Most of this site is outdated/under construction since things are moving so fast, and I've been so busy lately, but exciting updates coming soon!)</i>
-					</h6>
-				</div>
-				<div class="col-sm-4">
-					<img src="images/me.png" height="250" width="250"/>
-					<div class="spacer"></div>
-					<span class="fa-stack fa-lg"><a class="opentip-hover" data-text="Mail" href="mailto:me@jonathanpchen.com" target="_blank"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-envelope-o fa-stack-1x"></i></a></span>
-					<span class="fa-stack fa-lg"><a class="opentip-hover" data-text="Github" href="http://www.github.com/jpchen" target="_blank"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-github-alt fa-stack-1x"></i></a></span>
-					<span class="fa-stack fa-lg"><a class="opentip-hover" data-text="LinkedIn" href="https://www.linkedin.com/in/jonathan-p-chen-38905b58" target="_blank"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></a></span>
-                    <br>
-                    <p style="font-family:'Times New Roman'"><i> The final frontier is not the universe around us. It is the one inside our minds.</i></p>
-				</div>
-                <!--div class="col-sm-4" id="quote">
-				</div-->
-			</div>
-			<div class="col-sm-12 well content-section thumbnails" id="projects">
-				<h2> Some Cool Stuff I'm Doing</h2>
-				<div class="thumbnails">
-                    <a href="https://github.com/jpchen"><img src="images/pika_construction.gif"></a>
-                <!--
-					<div class="col-sm-4 col-md-4">
-						<h6> AI Go</h6>
-						<br>
-						<div>
-							<a href="docs/go_paper.pdf" target="_blank">
-								<img src="images/go.jpg" height="150" width="200"/>
-							</a>
-						</div>
-						<p><br> Go program that uses CNN and Monte Carlo Tree searches to play the board game Go. Trained from a data set of ~500,000 games</p>
-					</div>
-					<div class="col-sm-4 col-md-4">
-						<h6>Zero Knowledge Authentication Protocol Using Keystroke Dynamics</h6>
-						<a href="docs/paper.pdf" target="_blank">
-							<img src="images/crypto.jpg" height="150" width="220"/>
-						</a>
-						<p><br> Developed a novel, zero knowledge encryption protocol that used typing patterns as a password.  Invulnerable to password hacks, eavesdropping, or impersonation.</p>
-					</div>
-					<div class="col-sm-4 col-md-4">
-						<h6>EOS</h6>
-						<br>
-						<a href="http://eosplus.herokuapp.com" target="_blank">
-							<img src="images/eos.png" height="150" width="200"/>
-						</a>
-						<p><br> Web application that allows professors to record and livestream lectures for students, and provides a platform for students to register for classes and engage in discussions. PennApps 2015 API Award Winner.</p>
-					</div>
-                -->
-				</div>
-			</div>
-			<div class="col-sm-12 well content-section smaller" id="blog">
-                <h3> <strike> Coming Soon!</strike> My blog is <a href="/blog">up</a>!</h3>
-                <h6>I also write on <a href="https://medium.com/@jonathanpchen">medium</a>.</h6>
-				<img src="images/pika_construction.gif">
-				<img src="images/pika_construction.gif">
-				<img src="images/pika_construction.gif">
-			</div>
-			<div class="col-sm-12 well content-section thumbnails" id="interests">
-				<h2> Some Fun Stuff I Do</h2>
-				<div class="col-sm-4 col-md-4">
-					 <a href="https://youtu.be/NCmbdza7sYw">
-					 	<img src="images/uke.png" height="180" width="240">
-					 </a>
-					 <h6>I enjoy making music with friends, and sometimes we <a href="https://youtu.be/OQV7Y3bnF7E"> record it.</a> Subscribe to my <a href="https://www.youtube.com/user/luxon4/">YouTube</a> channel!</h6>
-				</div>
-				<div class="col-sm-4 col-md-4">
-					<a href="https://www.instagram.com/jpc.cardmagic/">
-						<img src="images/magic.gif" height="180" width="240">
-					</a>
-					<h6>When I was 6, a street magician sparked my interest in <a href="https://youtu.be/odUxqxXmBKs">sleight of hand</a> and <a href="https://youtu.be/icAGL6PsuU0">card manipulation</a>. Recently, I have been fascinated by the mathematics of card mechanics <a href="https://youtu.be/77myujBzaDI">deck stacking</a></h6>
-				</div>
-				<div class="col-sm-4 col-md-4">
-					<a href="https://en.wikipedia.org/wiki/Xiangqi">
-						<img src="images/chess.png" height="180" width="180">
-					</a>
-					<h6> I also play a competitive game of <a href="http://www.01xq.com/">Chinese Chess</a>, and occasionally you might find me playing <a href="http://www.clubxiangqi.com/">online</a>. </h6>
-				</div>
-			</div>
-			<div class="col-sm-12 well content-section thumbnails smaller" id="reading">
-                <h2> 5 Minutes Can Change Your Life... </h2>
-				<h6> I do a fair bit of reading, predominantly from content blogs but also from other sources such as videos and podcasts. I am aggregating <a href="/reading">exceptionally great ones</a>, mainly for myself so I can remember them.  I'm always looking to expand this list, so you know of any good ones I missed, please let me know! </h6>
-				<div class="col-sm-4 reading-section" id="general">
-					<h4> General Reading</h4>
-					<h6> <a href="http://waitbutwhy.com/">Wait But Why</a></h6>
-					<h6> <a href="https://what-if.xkcd.com/">What If?</a></h6>
-					<h6> <a href="http://www.paulgraham.com/articles.html">Paul Graham's Essays</a></h6>
-					<h6> <a href="http://pgbovine.net/intro.htm">Philip Guo's blog</a></h6>
-					<br>
-					<h4> Videos</h4>
-					<h6> <a href="https://youtu.be/ji5_MqicxSo">The Last Lecture</a></h6>
-					<h6> <a href="https://www.youtube.com/channel/UC-a4MiIis33-Z9vLYFerN6g/featured">Singularity Lectures</a></h6>
-					<h6> <a href="http://techtalks.tv/">TechTalks</a></h6>
-					<h6> <a href="https://www.ted.com/talks">TED Talks</a></h6>
-				</div>
-				<div class="col-sm-4 reading-section" id="science">
-					<h4> Technical Reading</h4>
-					<h5> <i> Machine Learning</i></h5>
-					<h6> <a href="http://karpathy.github.io/">Andrej Karpathy's blog</a></h6>
-					<h6> <a href="http://colah.github.io/">Chris Olah's blog</a></h6>
-					<h6> <a href="https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts/">NVIDIA's blog</a></h6>
-					<h6> <a href="https://probmods.org/">Probabilistic Models of Cognition</a></h6>
-					<h6> <a href="https://distill.pub/">Distill</a></h6>
-					<h5> <i> Computer Science</i></h5>
-					<h6> <a href="https://www.schneier.com/">Schneier's blog on Security</a></h6>
-					<h6> <a href="http://www.nearly42.org/">Nearly 42</a></h6>
-					<h5> <i>Physics and Math</i></h5>
-					<h6> <a href="http://www.feynmanlectures.caltech.edu/">Feynman Lectures</a></h6>
-					<h6> <a href="https://www.gutenberg.org/files/15114/15114-pdf.pdf">The Laws of Thought</a></h6>
-					<h6> <a href="https://books.google.com/books?id=ikMAzFXpFOsC">Mathematics: Its Content, Methods and Meaning</a></h6>
-				</div>
-				<div class="col-sm-4 reading-section" id="videos">
-					<h4> Podcasts</h4>
-                    <h6> <a href="http://www.npr.org/podcasts/510298/ted-radio-hour">TED</a></h6>
-                    <h6> <a href="http://freakonomics.com/archive/">Freakonomics</a></h6>
-                    <h6> <a href="http://fourhourworkweek.com/podcast/">Tim Ferriss</a></h6>
-                    <h6> <a href="https://itunes.apple.com/us/podcast/wait-wait...-dont-tell-me!/id121493804?mt=2">Wait Wait...Don't Tell Me</a></h6>
-                    <h6> <a href="http://www.radiolab.org/series/podcasts/">RadioLab</a></h6>
-                    <h6> <a href="http://www.nature.com/nature/podcast/">Nature</a></h6>
-                    <h6> <a href="http://www.npr.org/podcasts/510308/hidden-brain">Hidden Brain</a></h6>
-                    <h6> <a href="http://www.npr.org/podcasts/488521530/everything-explained-podcast">Everything Explained</a></h6>
-                    <h6> <a href="http://www.npr.org/podcasts/510053/on-point-with-tom-ashbrook">On Point</a></h6>
-                    <h6> <a href="http://www.npr.org/podcasts/510307/invisibilia">Invisibilia</a></h6>
-                    <h6> <a href="http://www.npr.org/podcasts/510289/planet-money">Planet Money</a></h6>
-                    <h6> <a href="http://www.npr.org/podcasts/414697070/brains-on">Brains On</a></h6>
-                    <h6> <a href="http://www.npr.org/podcasts/510303/how-to-do-everything">How To Do Everything</a></h6>
-                    <h6> <a href="http://revisionisthistory.com/about">Malcolm Gladwell</a></h6>
-				</div>
-			</div>
-            <!--
-			<div class="col-sm-12 well content-section smaller" id="inspirations">
-				<h2> Simply the Best</h2>
-				<h6> A list of idols, mentors, and inspirations, unmatched in mental acuity, wisdom, or character. Gods among men and what I learned from them.</h6>
-				<div class="col-sm-12 list-section">
-					<p><a href="https://youtu.be/ji5_MqicxSo">Randy Pausch</a> &mdash; "If you lead your life correctly... your dreams will come to you". In the last lecture of his life, he talks about how to achieve your dreams and become a better person.  His lecture has been the paradigm for my life principles. </p>
-					<p><a href="https://en.wikipedia.org/wiki/Richard_Feynman">Richard Feynman</a> &mdash; A living example that teaching others is the only path to true understanding. The only person whose Nobel Prize is eclipsed by his teaching prowess and making physics universally accessible. </p>
-					<p><a href="https://en.wikipedia.org/wiki/John_von_Neumann">John von Neumann</a> &mdash; A polymath whose name is staple in almost all fields of math and science. In my opinion, truly the smartest man in history. </p>
-					<p><a href="https://en.wikipedia.org/wiki/Douglas_MacArthur">Douglas MacArthur</a> &mdash; "People of the Philippines, I have returned".  A genuinely kind person, he kept an impossible promise during WWII.  Instrumental in shaping Asia into what it is today and commands universal respect.</p>
-					<p><a href="https://en.wikipedia.org/wiki/Erwin_Rommel">Erwin Rommel</a> &mdash; Incorruptible General, universally respected by his subordinates and adversaries. He showed that the ugliest jobs can be done with principles and honor.</p>
-                    <p><a href="https://www.facebook.com/WanFengTi/videos/10154052515067522/">Jackie Chan</a> &mdash; I grew up idolizing him for what he did on the screen, but became inspired by the stories of how much he gave at a time when had nothing.  Humble yourself and show compassion to your fellow people, and they will spend the rest of their life in your gratitude.</p>
-				</div>
-			</div>
-            -->
-			<div class="col-sm-12 well content-section smallest" id="resume">
+  <div class="container">
 
-				<div class="col-sm-12">
-				    <h3> Check out my resume <a href="docs/resume.pdf">here</a></h3>
-				</div>
-			</div>
-		</div>		
-	</div>
-</div>
-			</div>
-		</div>
-	</main>
+    <div class="row" style="padding:20px">
 
-	<footer>
-		<div class="container raleway">
-		    <div class="row">
-		        <div class="col-lg-10 col-lg-offset-1 text-center">
-		            <p class="text-muted">Jonathan P. Chen 2018 &copy;
-		            </p>
-		        </div>
-		    </div>
-		</div>
-	</footer>
+       <div class="hidden-xs col-sm-3 col-md-2" id="sidebar" role="navigation" style="margin-top:180px">
+        <hr>
+        <ul class="nav nav-pills nav-stacked">
+            <li><h5><a href="#research">Papers</a></h5></li>
+            <li><h5><a href="#software">Software</a></h5></li>
+            <!--li><h5><a href="#talks">Talks</a></h5></li-->
+            <li><h5><a href="/blog">Blog</a></h5></li>
+            <li><h5><a href="docs/resume.pdf">Vita</a></h5></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-9 col-md-9">
+
+        <div class="row">
+          <img src="images/me.png" class="pull-left" style="margin:20px
+          20px 20px 0; height:140px; width:140px; border-radius:100%"/>
+          <h1>Jonathan P. Chen</h1>
+          <h5 class="lead">
+            Machine Learning Researcher
+            <br>
+            <a href="mailto:me@jonathanpchen.com" class="icon">
+              <i class="fa fa-envelope fa-lg"></i>
+            </a>
+            <a href="https://github.com/jpchen" class="icon">
+              <i class="fa fa-github fa-lg"></i>
+            </a>
+            <a href="https://linkedin.com/in/jonpchen/" class="icon">
+              <i class="fa fa-linkedin fa-lg"></i>
+            </a>
+            <a href="/blog" class="icon">
+              <i class="fa fa-pencil fa-lg"></i>
+            </a>
+          </h5>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <h5>
+            I am currently a research engineer at <a href="http://uber.ai">Uber AI Labs</a> in San Francisco, CA.
+            My area of interest is in <b>statistical machine learning</b>
+            and <b>probabilistic programming</b>, and its applications in cognitive science, vision, and language.
+            I received my undergraduate degree in computer science from the <a href="http://www.seas.upenn.edu/"> University of Pennsylvania</a>.
+            <br> <br>
+            I've recently begun maintaining a <a href="http://blog.jonathanpchen.com"> research </a>
+            and a <a href="https://medium.com/@jonathanpchen"> personal </a> blog! <!--I also do <a href="/misc"> fun things</a> in my free time.-->
+          </h5>
+          </div>
+
+        <div class="row">
+          <h2><a name="research"></a>Papers</h2>
+          <hr>
+          <h3>Preprints (In Progress)</h3>
+          <h5>
+            <strong>Pyro: Deep Universal Probabilistic Programming</strong><br>
+            Eli Bingham, <span style="color: #3381A2"> Jonathan P. Chen</span>, Martin Jankowiak, Neeraj Pradhan,
+            Theofanis Karaletsos, Rohit Singh, Paul Szerlip, Paul Horsfall, Noah D. Goodman.<br>
+            <div class="btn-group-xs">
+              <!--a href="https://arxiv.org/abs/1610.09787"
+              class="btn btn-default">arxiv</a-->
+            </div>
+          </h5>
+          <h3>Publications</h3>
+          <h5>
+           <strong>Transpiling Stan models to Pyro</strong><br>
+           <span style="color: #3381A2"> Jonathan P. Chen</span>, Rohit Singh, Eli Bingham, Noah Goodman.
+           <br>
+           <em>The International Conference on Probabilistic Programming (PROBPROG)</em>, 2018.
+           <!--div class="btn-group-xs">
+             <a href="https://arxiv.org/abs/1802.05751"
+             class="btn btn-default">arxiv</a>
+           </div-->
+          </h5>
+        </div>
+
+        <div class="row">
+          <h2><a name="software"></a>Open Source Software</h2>
+          <hr>
+          <a href="http://pyro.ai"><h4>Pyro</h4></a>
+            <h5>
+              Pyro is a deep, universal probabilistic programming language written in Python on top of PyTorch.
+              For more information, check out the <a href="http://eng.uber.com/pyro">release blog</a>. <!-- REPLACE WITH LINK TO PAPER -->
+              <br>
+              <a href="https://github.com/uber/pyro"
+              class="btn btn-default">Github</a>
+            </h5>
+
+          <br>
+          <h4>Pyro-Stan Compiler</h4>
+            <h5>
+                C++ Compiler that compiles Stan models into Pyro models. Validated on a corpus of 130+ models.
+              <br>
+              <a href="https://github.com/jpchen/pyro-stan-compiler"
+              class="btn btn-default">Github</a>
+            </h5>
+        </div>
+
+        <div class="row">
+          <h2><a name="patents"></a>Patents</h2>
+          <hr>
+          <h5>
+           <strong>System and Method for Object Location Detection from Imagery</strong>
+           <br>
+           Fritz Obermeyer, <span style="color: #3381A2"> Jonathan P. Chen</span>, Vladimir Lyapunov,
+           Lionel Gueguen, Noah Goodman, Ben Kadlec, Douglas Bemis.
+           <br>
+           <i> US Provisional Patent</i>, 2018.
+          </h5>
+          <hr>
+        </div>
+
+      </div>
+
+    </div>
+
+    <hr>
+
+    <footer>
+    &nbsp;
+    </footer>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript"
+     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
-
 </html>
